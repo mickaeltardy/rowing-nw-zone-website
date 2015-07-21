@@ -1,0 +1,183 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	font-family: 'Lucida Grande', Helvetica, Verdana, sans-serif;
+}
+
+header {
+	background: #00a9e0;
+	height: 90px;
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.075);
+	width: 100%;
+}
+
+nav {
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.075);
+}
+
+nav>ul {
+	float: right;
+	margin: 0px 40px;
+}
+
+nav>ul>li {
+	color: #0C3A6D;
+	float: left;
+	list-style: none;
+	font-size: 120%;
+	padding: 40px 10px 24px 10px;
+	font-variant: small-caps;
+	max-height: 90px;
+}
+
+nav>ul>li>a {
+	color: #0C3A6D;
+	text-decoration: none;
+}
+
+nav>ul>li:hover {
+	border-bottom: solid rgba(12, 58, 109, 0.5) 4px;
+}
+
+#logo-container, #title-container>a {
+	display: block;
+	float: left;
+	clear: none;
+	color: #ffffff;
+}
+
+#logo-container {
+	width: 240px;
+	height: 90px;
+	content: " ";
+	background: #ffffff url("../img/logo-smallest.jpg") no-repeat 40px;
+}
+
+#title-container>a {
+	padding: 30px 10px 10px 30px;
+	font-variant: small-caps;
+	font-size: 150%;
+}
+
+#title-container {
+	background-color: #0C3A6D;
+	display: block;
+	height: 90px;
+	float: left;
+	clear: none;
+	margin-left: -0px;
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.075);
+}
+
+#title-container::after, #logo-container::after {
+	background-color: #0C3A6D;
+	position: relative;
+	transform: skewX(-20deg);
+	-moz-transform: skewX(-10deg);
+	-webkit-transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	content: " ";
+	height: 90px;
+	width: 40px;
+	overflow: hidden;
+	z-index: 1;
+	display: block;
+	float: left;
+	clear: none;
+}
+
+#logo-container::after {
+	margin-left: 220px;
+}
+
+#title-container::after {
+	margin-right: -20px;
+}
+
+.slide {
+	width: 100%;
+	height: 60%;
+	min-height: 400px;
+}
+
+.container {
+	vertical-align: middle;
+	width: 100%;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 0px;
+}
+
+.slide>.container>h1 {
+	margin: 0px !important;
+	display: inline-block;
+	color: #fff;
+	background: rgba(12, 58, 109, 0.5);
+	padding: 20px !important;  
+}
+
+#slide1 {
+	background:
+		url("http://www.avironpdl.fr/2bgal/img/zone/MantesZonesBL2015-6.jpg")
+		no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.my-svg {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.my-svg-container {
+	display: block;
+	position: relative;
+	margin: 50px auto;
+	width: 50%;
+	padding-bottom: 60%;
+}
+
+.page {
+	display: block;
+	width: 90%;
+	margin: 30px auto;
+}
+
+.page>h1 {
+	color: #0C3A6D;
+	font-variant: small-caps;
+	font-size: 160%;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: rgba(12, 58, 109, 0.1) solid thin;
+}
+
+footer {
+	height: 90px;
+	display: block;
+	background-color: #0C3A6D;
+}
+
+.bs-callout {
+	width:100%;
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+
+
+.bs-callout-info {
+	border-left-color: rgba(12, 58, 109, 0.5) ;
+}

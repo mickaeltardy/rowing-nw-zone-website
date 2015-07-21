@@ -1,0 +1,30 @@
+{
+  "name": "rowing-nw-zone",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mishgunn/rowing-nw-zone-website",
+  "description": "Rowing NW Zone website",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rowing"
+  ],
+  "authors": [
+    "Mickael Tardy"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies":{
+  	"jquery":"~2.1.3",
+  	"bootstrap":"3.3.2",
+  	"jquery-ui":"1.11.3",
+  	"slick-carousel": "1.4.1"
+  }
+}
